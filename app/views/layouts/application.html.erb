@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Bookers</title>
+    <title><%= yield(:title) %>Bookers</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -79,5 +79,6 @@
         </div>
       </div>
     </footer>
+    <%= debug(params) if Rails.env.development? %>
   </body>
 </html>

@@ -71,6 +71,8 @@ gem 'jquery-rails'
 
 gem 'kaminari','~> 1.2.1'
 
+gem 'dotenv-rails'
+
 group :test do
   gem 'capybara', '>= 2.15'
   gem 'rspec-rails'
